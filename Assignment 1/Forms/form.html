@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    </head>
+<body text-align="center" margin="50px" bgcolor="black" style="color: aliceblue;" >
+    <h1 align="center" >Fill in your particulars</h1>
+    <form action="" method="GET">
+        <div align="center">
+        <fieldset>
+            <legend align="center" style="font-size: larger; font-family: Arial, Helvetica, sans-serif;">Personal Info</legend>
+            <br>
+
+            <label for="Fname" style="font-size: large;font-family: cursive;" >First name :</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Lname" style="font-size: large;font-family: cursive;">Last name :</label>
+            <br>
+            <input type="text" placeholder="First name" id="Fname" name="Fname">&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Last name" id="Lname" name="Lname">
+            <br>
+            <br>
+            <label for="password"style="font-size: large;font-family: cursive;">Password :</label>
+            <input type="password" placeholder="password" id="password" name="password">
+            <br>
+            <br>
+            <label for="DOB" style="font-size: large;font-family: cursive;">D.O.B :</label>
+            <input type="date" id="DOB">
+            <br>
+            <br>
+            <label for="Gender" style="font-size: large;font-family: cursive;" >Gender :</label>
+            <label style="font-size: large;font-family: cursive;">Male 
+            <input type="radio"  name="Gender" ></label>
+            <label style="font-size: large;font-family: cursive;">Female 
+                <input type="radio"  name="Gender"></label>
+            <label style="font-size: large;font-family: cursive;">Not to mention 
+                <input type="radio"  name="Gender"></label>
+            <br>
+            <br>
+            <label for="Image" style="font-size: large;font-family: cursive;">Please select an Image of yours in .png or.jpg format</label>
+            <br>
+            <br>
+            <input type="file" name="myImage" accept="image/*" />
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend align="center" style="font-size: larger; font-family: Arial, Helvetica, sans-serif;">Contact Info & Social Handles</legend>
+            <label for="email" style="font-size: large;font-family: cursive;">E-mail :</label>
+            <input type="email" placeholder="Your email id" id="email" required>
+            <br>
+            <br>
+            <label for="mobilenum" style="font-size: large;font-family: cursive;">Mob no. :</label>
+            <input type="tel" placeholder="Enter 10 digit mobile no." id="mobilenum" minlength="10" maxlength="10" required>
+            <br>
+            <br>
+            <label for="Github" style="font-size: large;font-family: cursive;">GitHub Link :</label>
+            <input type="text" placeholder="Enter your GitHub link if you have any" id="Github" name="Github" 
+            style="width: 20%; box-sizing: content-box; border-spacing: 10px;">
+            <br>
+            <br>
+            <label for="LinkedIn" style="font-size: large;font-family: cursive;">LinkedIn Id :</label>
+            <input type="text" placeholder="Enter url to your LinkedIn profile" id="LinkedIn" name="LinkedIn" 
+            style="width: 15%;">
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+        
+        
+        <fieldset>
+            <legend align="center" style="font-size: larger; font-family: Arial, Helvetica, sans-serif;">Educational Qualifications</legend>
+             <br>
+             <br>
+                <label for="Marksheet" style="font-size: large;font-family: cursive;" >Enter Your 10th % and upload marksheet :</label>
+                <input type="number" id="Marksheet" name="10th%" style="width: 40px;" maxlength="2" >
+                <br>
+                <br>
+                <input type="file" id="Marksheet">
+                <br>
+                <br>
+                <label for="Marksheet12" style="font-size: large;font-family: cursive;">Enter Your 12th % and upload marksheet :</label>
+                <input type="number" id="Marksheet12" name="12th%" style="width: 40px;" maxlength="2" >
+                <br>
+                <br>
+                <input type="file" id="Marksheet12">
+                <br>
+                <br>
+                <label for="MarksheetUni" style="font-size: large;font-family: cursive;">Enter Your Graduation % and upload marksheet :</label>
+                <input type="number" id="MarksheetUni" name="Grad%" style="width: 40px;" maxlength="2" >
+                <br>
+                <br>
+                <input type="file" id="MarksheetUni">
+                <br>
+                <br>
+            
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend align="center" style="font-size: larger; font-family: Arial, Helvetica, sans-serif;">Skills</legend>
+            <fieldset>
+                <legend align="center" style="font-size: large; font-family: Arial, Helvetica, sans-serif;"><label for="Languages">Programming languages</label></legend>
+                <ol>
+                    <li>
+                    <input type="checkbox" id="Java" name="Java">
+                    <label for="Java" style="font-size: large;font-family: cursive;">Java</label>
+                    </li>
+                    <br>
+                    <li><input type="checkbox" id="C++" name="C++">
+                    <label for="C++" style="font-size: large;font-family: cursive;">C++</label>
+                    </li>
+                    <br>
+
+                    <li>
+                    <input type="checkbox" id="PYTHON" name="PYTHON">
+                    <label for="PYTHON" style="font-size: large;font-family: cursive;">Python</label>
+                    </li>
+                    <br>
+
+                    <li>
+                    <input type="checkbox" id="Javascript" name="Javascript">
+                    <label for="Javascript" style="font-size: large;font-family: cursive;">Javascript</label>
+                    </li>
+                    <br>
+
+                    <li>
+                    <input type="checkbox" id="PHP" name="PHP">
+                    <label for="PHP" style="font-size: large;font-family: cursive;">PHP</label>
+                    </li>
+                    <br>
+                </ol>
+            </fieldset> 
+            <br>
+            <br>
+            <fieldset>
+                <legend align="center" style="font-size: large; font-family: Arial, Helvetica, sans-serif;">Development</legend>
+                <br>
+                <br>
+                <label for="Database" style="font-size: large;font-family: cursive;">Database :</label>
+                <select name="Database" id="Database">
+                    <option value="SQL">SQL</option>
+                    <option value="MySQL">MySQL</option>
+                    <option value="Postgres SQL">Postgres SQL</option>
+                    <option value="MongoDB">MongoDB</option>
+                    <option value="SQL Server">SQL Server</option>
+                    <option value="MariaDB">MariaDB</option>
+                </select>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Development" style="font-size: large;font-family: cursive;">Development :</label>
+                <select name="Development" id="Development">
+                    <option value="WEB Development">WEB Development</option>
+                    <option value="Android Development">Android Development</option>
+                    <option value="ios Development">ios Development</option>
+                    <option value="Machine learning">Machine learning</option>
+                    <option value="others">Others</option>
+                </select>
+                <br>
+                <br>
+                <label for="Others" style="font-size: large;font-family: cursive;">**If others please specify :</label>
+                <input type="text" id="Others" name="Others">
+                <br>
+                <br>
+            </fieldset>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend align="center" style="font-size: larger; font-family: Arial, Helvetica, sans-serif;">Projects</legend>
+            <label for="Project" style="font-size: large;font-family: cursive;">Write about all your projects in brief</label>
+            <br>
+            <br>
+            <textarea id="Project" rows="5" cols="55">About your project in less than 50 words</textarea>
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+    
+        <input type="submit" value="Submit" style="height: 25px; width: 90px ;cursor: grab;
+        color: rgb(8, 0, 0);border-radius: 15px;background-color: darkcyan; 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        </div>
+    </form>
+
+    
+</body>
+</html>
